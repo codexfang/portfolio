@@ -39,13 +39,16 @@ export default function Hero() {
         systems at scale
       </p>
       <p className="text-white/70 text-base max-w-lg mt-4 leading-relaxed md:text-left">
-        As a driven student with a strong foundation in data analysis and computational modeling, I develop advanced platforms that integrate research, automation, and analytics to solve real-world problems.
+        As a driven student with a strong foundation in data analysis and computational modeling, I develop advanced platforms that integrate research, automation, and analytics to solve real-world problems. Currently focused on building AI-driven systems that bridge the gap between cutting-edge research and practical applications.
+      </p>
+      <p className="text-white/60 text-sm sm:text-base max-w-lg mt-4 md:text-left">
+        San Francisco, CA
       </p>
 
       <div className="flex flex-row items-center gap-3 sm:gap-4 mt-8">
         <a
           href="#projects"
-          className="inline-flex items-center justify-center gap-2 px-8 sm:px-6 py-4 sm:py-3 rounded-full bg-white/10 text-white font-medium text-lg sm:text-base hover:bg-white/20 transition-all shrink-0"
+          className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/10 text-white font-medium text-base hover:bg-white/20 transition-all shrink-0"
         >
           Explore Work <ArrowRight className="w-5 h-5" />
         </a>
@@ -55,7 +58,7 @@ export default function Hero() {
             href="https://www.linkedin.com/in/jasonfangz/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+            className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
             aria-label="LinkedIn"
           >
             <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
@@ -64,14 +67,14 @@ export default function Hero() {
             href="https://github.com/codexfang"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+            className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
             aria-label="GitHub"
           >
             <Github className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           </a>
           <a
             href="mailto:jason@fangux.com"
-            className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+            className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
             aria-label="Email"
           >
             <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />

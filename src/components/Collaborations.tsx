@@ -9,7 +9,7 @@ function getGroupSize() {
 const collaborations = [
   { logo: 'GO', company: 'Google', period: '2025 - 2026' },
   { logo: 'MT', company: 'Meta', period: '2025 - 2026' },
-  { logo: 'JP', company: 'JP Morgan Chase', period: '2025 - 2026' },
+  { logo: 'JP', company: 'JPMorgan', period: '2025 - 2026' },
   { logo: 'AP', company: 'Apple', period: '2025 - 2026' },
   { logo: 'NV', company: 'NVIDIA', period: '2025 - 2026' },
   { logo: 'TS', company: 'Tesla', period: '2025' },
