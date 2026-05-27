@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className="fixed top-4 left-4 right-4 md:top-6 md:left-6 md:right-6 z-50">
       <div className="backdrop-blur-xl bg-black/50 border border-cyan-500/20 rounded-2xl px-4 py-3 md:px-6 md:py-4 max-w-[640px] mx-auto">
         <div className="flex items-center justify-between md:justify-center">
-          <img src="/FangHeadshot.png" alt="" className="md:hidden w-9 h-9 rounded-full object-cover" />
+          <img src="/FangHeadshot.png" alt="" className="md:hidden w-11 h-11 rounded-full object-cover" />
           <button
             onClick={() => setOpen(!open)}
             className="flex md:hidden items-center justify-center w-8 h-8 rounded-lg hover:bg-white/10 transition-colors"

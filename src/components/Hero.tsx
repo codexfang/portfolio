@@ -45,7 +45,7 @@ export default function Hero() {
       <div className="flex flex-row items-center gap-3 sm:gap-4 mt-8">
         <a
           href="#projects"
-          className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/10 text-white font-medium text-base hover:bg-white/20 transition-all shrink-0"
+          className="inline-flex items-center justify-center gap-2 px-8 sm:px-6 py-4 sm:py-3 rounded-full bg-white/10 text-white font-medium text-lg sm:text-base hover:bg-white/20 transition-all shrink-0"
         >
           Explore Work <ArrowRight className="w-5 h-5" />
         </a>
@@ -55,26 +55,26 @@ export default function Hero() {
             href="https://www.linkedin.com/in/jasonfangz/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+            className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
             aria-label="LinkedIn"
           >
-            <Linkedin className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
+            <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           </a>
           <a
             href="https://github.com/codexfang"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+            className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
             aria-label="GitHub"
           >
-            <Github className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
+            <Github className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           </a>
           <a
             href="mailto:jason@fangux.com"
-            className="w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+            className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
             aria-label="Email"
           >
-            <Mail className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
+            <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           </a>
         </div>
       </div>
