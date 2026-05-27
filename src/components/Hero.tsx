@@ -27,6 +27,9 @@ export default function Hero() {
       className="flex flex-col h-full"
     >
       <div className="flex-1 flex flex-col justify-center">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-300 text-xs font-mono mb-4">
+          Software Engineer
+        </div>
         <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-display italic text-white mb-3 leading-tight md:text-left">
           Jason Fang
         </h1>
@@ -40,13 +43,10 @@ export default function Hero() {
           systems at scale
         </p>
         <p className="text-white/70 text-base max-w-lg mt-4 leading-relaxed md:text-left">
-          As a driven student with a strong foundation in data analysis and computational modeling, I develop advanced platforms that integrate research, automation, and analytics to solve real-world problems. Currently focused on building AI-driven systems that bridge the gap between cutting-edge research and practical applications.
+          As a driven student with a strong foundation in data analysis and computational modeling, I develop advanced platforms that integrate automation and analytics to solve problems. I am currently focused on building AI-driven systems that connects the gap between research and practical applications.
         </p>
         <p className="text-white/70 text-base max-w-lg mt-4 leading-relaxed md:text-left md:hidden">
-          My work spans financial analytics, productivity tools, and cybersecurity — each project built with an emphasis on clean architecture and thoughtful user experiences. I thrive at the intersection of data and design, turning complex problems into intuitive, scalable solutions.
-        </p>
-        <p className="text-white/60 text-sm sm:text-base max-w-lg mt-4 md:text-left">
-          San Francisco, CA
+          My work spans across financial analytics, productivity tools, and cybersecurity. I build projects with an emphasis on clean architecture and thoughtful user experiences. I thrive at the intersection of data and turn complex problems into scalable solutions.
         </p>
 
         <div className="flex flex-row items-center gap-3 sm:gap-4 mt-8">
