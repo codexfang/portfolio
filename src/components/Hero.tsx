@@ -26,10 +26,10 @@ export default function Hero() {
       transition={{ type: 'spring', stiffness: 80, damping: 18, delay: 0.2 }}
       className="flex flex-col justify-center h-full"
     >
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display italic text-white mb-2 leading-tight">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display italic text-white mb-3 leading-tight md:text-left">
         Jason Fang
       </h1>
-      <p className="text-white/90 text-base sm:text-lg md:text-xl max-w-lg">
+      <p className="text-white/90 text-base sm:text-lg md:text-xl max-w-lg md:text-left">
         Building{' '}
         <span
           className={`text-cyan-300 font-serif italic transition-opacity duration-300 ${visible ? 'opacity-100' : 'opacity-0'}`}
@@ -38,18 +38,18 @@ export default function Hero() {
         </span>{' '}
         systems at scale
       </p>
-      <p className="text-white/70 text-sm sm:text-base max-w-lg mt-4 leading-relaxed">
+      <p className="text-white/70 text-sm sm:text-base max-w-lg mt-4 leading-relaxed md:text-left">
         As a driven student with a strong foundation in data analysis and computational modeling, I develop advanced platforms that integrate research, automation, and analytics to solve real-world problems.
       </p>
 
-      <div className="flex flex-col sm:flex-row sm:items-center gap-4 mt-8">
+      <div className="flex flex-col sm:flex-row sm:items-center gap-4 mt-8 md:justify-start">
         <a
           href="#projects"
           className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/10 text-white font-medium text-base hover:bg-white/20 transition-all w-full sm:w-auto"
         >
           Explore Work <ArrowRight className="w-5 h-5" />
         </a>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center justify-center gap-3 sm:justify-start">
           <a
             href="https://www.linkedin.com/in/jasonfangz/"
             target="_blank"

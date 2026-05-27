@@ -20,13 +20,13 @@ function App() {
       <div className="relative z-10">
         <Navbar />
 
-        <section id="work" className="min-h-screen pt-20 md:pt-24 px-4 md:px-4">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center md:min-h-[calc(100vh-8rem)]">
-            <div className="order-1 md:order-1 flex items-center justify-center md:ml-8">
+        <section id="work" className="md:min-h-screen pt-20 md:pt-24 px-4 md:px-4">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 items-center md:min-h-[calc(100vh-8rem)]">
+            <div className="order-1 md:order-1 flex items-center justify-center md:ml-8 mt-4 md:mt-0">
               <img
                 src="/FangHeadshot.png"
                 alt="Jason Fang"
-                className="w-64 h-64 md:w-[26rem] md:h-[26rem] rounded-2xl object-cover shadow-2xl shadow-cyan-500/10"
+                className="w-48 h-48 md:w-[26rem] md:h-[26rem] rounded-2xl object-cover shadow-2xl shadow-cyan-500/10"
               />
             </div>
             <div className="order-2 md:order-2">
