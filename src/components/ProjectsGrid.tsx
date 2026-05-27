@@ -41,7 +41,7 @@ const allProjects = [
     details: 'Analyzes financial news articles and predicts market impact using TensorFlow.js-based natural language processing.',
     github: 'https://github.com/codexfang/fintrix-ai', demo: 'https://codexfang.github.io/fintrix-ai/',
     skills: ['Natural Language Processing', 'Financial Analysis', 'ML Model Training', 'API Integration', 'Data Processing'],
-    showSkills: 4,
+    showSkills: 5,
   },
   {
     id: 'sentinel-orbit', title: 'Sentinel Orbit', desc: 'Phishing URL detector',
