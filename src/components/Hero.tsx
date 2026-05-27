@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowRight, Linkedin, Github, Mail } from 'lucide-react'
+import { ArrowRight, Linkedin, Github, Mail, ChevronDown } from 'lucide-react'
 
 const words = ['intelligent', 'adaptive', 'predictive', 'autonomous', 'generative']
 
@@ -24,62 +24,73 @@ export default function Hero() {
       initial={{ opacity: 0, y: -40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ type: 'spring', stiffness: 80, damping: 18, delay: 0.2 }}
-      className="flex flex-col justify-center h-full"
+      className="flex flex-col h-full"
     >
-      <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-display italic text-white mb-3 leading-tight md:text-left">
-        Jason Fang
-      </h1>
-      <p className="text-white/90 text-lg sm:text-lg md:text-xl max-w-lg md:text-left">
-        Building{' '}
-        <span
-          className={`text-cyan-300 font-serif italic transition-opacity duration-300 ${visible ? 'opacity-100' : 'opacity-0'}`}
-        >
-          {words[wordIndex]}
-        </span>{' '}
-        systems at scale
-      </p>
-      <p className="text-white/70 text-base max-w-lg mt-4 leading-relaxed md:text-left">
-        As a driven student with a strong foundation in data analysis and computational modeling, I develop advanced platforms that integrate research, automation, and analytics to solve real-world problems. Currently focused on building AI-driven systems that bridge the gap between cutting-edge research and practical applications.
-      </p>
-      <p className="text-white/60 text-sm sm:text-base max-w-lg mt-4 md:text-left">
-        San Francisco, CA
-      </p>
+      <div className="flex-1 flex flex-col justify-center">
+        <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-display italic text-white mb-3 leading-tight md:text-left">
+          Jason Fang
+        </h1>
+        <p className="text-white/90 text-lg sm:text-lg md:text-xl max-w-lg md:text-left">
+          Building{' '}
+          <span
+            className={`text-cyan-300 font-serif italic transition-opacity duration-300 ${visible ? 'opacity-100' : 'opacity-0'}`}
+          >
+            {words[wordIndex]}
+          </span>{' '}
+          systems at scale
+        </p>
+        <p className="text-white/70 text-base max-w-lg mt-4 leading-relaxed md:text-left">
+          As a driven student with a strong foundation in data analysis and computational modeling, I develop advanced platforms that integrate research, automation, and analytics to solve real-world problems. Currently focused on building AI-driven systems that bridge the gap between cutting-edge research and practical applications.
+        </p>
+        <p className="text-white/60 text-sm sm:text-base max-w-lg mt-4 md:text-left">
+          San Francisco, CA
+        </p>
 
-      <div className="flex flex-row items-center gap-3 sm:gap-4 mt-8">
-        <a
-          href="#projects"
-          className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/10 text-white font-medium text-base hover:bg-white/20 transition-all shrink-0"
-        >
-          Explore Work <ArrowRight className="w-5 h-5" />
-        </a>
-        <div className="hidden sm:block w-16 md:w-24" />
-        <div className="flex items-center gap-2 sm:gap-3 ml-auto sm:ml-0">
+        <div className="flex flex-row items-center gap-3 sm:gap-4 mt-8">
           <a
-            href="https://www.linkedin.com/in/jasonfangz/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
-            aria-label="LinkedIn"
+            href="#projects"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/10 text-white font-medium text-base hover:bg-white/20 transition-all shrink-0"
           >
-            <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            Explore Work <ArrowRight className="w-5 h-5" />
           </a>
-          <a
-            href="https://github.com/codexfang"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
-            aria-label="GitHub"
-          >
-            <Github className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-          </a>
-          <a
-            href="mailto:jason@fangux.com"
-            className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
-            aria-label="Email"
-          >
-            <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-          </a>
+          <div className="hidden sm:block w-16 md:w-24" />
+          <div className="flex items-center gap-2 sm:gap-3 ml-auto sm:ml-0">
+            <a
+              href="https://www.linkedin.com/in/jasonfangz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            </a>
+            <a
+              href="https://github.com/codexfang"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+              aria-label="GitHub"
+            >
+              <Github className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            </a>
+            <a
+              href="mailto:jason@fangux.com"
+              className="w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all"
+              aria-label="Email"
+            >
+              <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            </a>
+          </div>
         </div>
+      </div>
+
+      <div className="flex justify-center pb-4 md:pb-0">
+        <motion.div
+          animate={{ y: [0, 8, 0] }}
+          transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+        >
+          <ChevronDown className="w-6 h-6 text-white/30" />
+        </motion.div>
       </div>
     </motion.div>
   )
