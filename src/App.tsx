@@ -16,60 +16,60 @@ const sectionAnim = {
 
 function App() {
   return (
-    <div className="relative min-h-screen font-display text-white overflow-hidden bg-gradient-to-br from-[#08080f] via-[#0f0f1a] to-[#1a1a2a]">
+    <div className="relative min-h-screen font-display text-white bg-gradient-to-br from-[#08080f] via-[#0f0f1a] to-[#1a1a2a]">
       <div className="relative z-10">
         <Navbar />
 
-        <section id="work" className="min-h-screen pt-20 md:pt-24 px-3 md:px-4">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 items-center min-h-[calc(100vh-8rem)]">
-            <div className="order-2 md:order-1 h-[300px] md:h-[500px] flex items-center justify-center md:ml-8">
+        <section id="work" className="min-h-screen pt-20 md:pt-24 px-4 md:px-4">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center md:min-h-[calc(100vh-8rem)]">
+            <div className="order-1 md:order-1 flex items-center justify-center md:ml-8">
               <img
                 src="/FangHeadshot.png"
                 alt="Jason Fang"
-                className="w-80 h-80 md:w-[26rem] md:h-[26rem] rounded-2xl object-cover shadow-2xl shadow-cyan-500/10"
+                className="w-64 h-64 md:w-[26rem] md:h-[26rem] rounded-2xl object-cover shadow-2xl shadow-cyan-500/10"
               />
             </div>
-            <div className="order-1 md:order-2">
+            <div className="order-2 md:order-2">
               <Hero />
             </div>
           </div>
         </section>
 
-        <section id="experience" className="py-24 px-3 md:px-4">
+        <section id="experience" className="py-20 md:py-24 px-4 md:px-4">
           <motion.div {...sectionAnim} className="max-w-7xl mx-auto">
-            <div className="text-center mb-10">
-              <p className="text-sm font-mono text-cyan-400/80 mb-1.5">/ experience</p>
-              <h2 className="text-4xl md:text-5xl font-display italic text-white">Creating impact across industries</h2>
+            <div className="text-center mb-8 md:mb-10">
+              <p className="text-xs md:text-sm font-mono text-cyan-400/80 mb-1.5">/ experience</p>
+              <h2 className="text-3xl md:text-5xl font-display italic text-white">Creating impact across industries</h2>
             </div>
             <ExperienceCarousel />
           </motion.div>
         </section>
 
-        <section id="projects" className="py-24 px-3 md:px-4">
+        <section id="projects" className="py-20 md:py-24 px-4 md:px-4">
           <motion.div {...sectionAnim} className="max-w-7xl mx-auto">
-            <div className="text-center mb-10">
-              <p className="text-sm font-mono text-cyan-400/80 mb-1.5">/ projects</p>
-              <h2 className="text-4xl md:text-5xl font-display italic text-white">Building systems that matter</h2>
+            <div className="text-center mb-8 md:mb-10">
+              <p className="text-xs md:text-sm font-mono text-cyan-400/80 mb-1.5">/ projects</p>
+              <h2 className="text-3xl md:text-5xl font-display italic text-white">Building systems that matter</h2>
             </div>
             <ProjectsGrid />
           </motion.div>
         </section>
 
-        <section id="collaborations" className="py-24 px-3 md:px-4">
+        <section id="collaborations" className="py-20 md:py-24 px-4 md:px-4">
           <motion.div {...sectionAnim} className="max-w-7xl mx-auto">
-            <div className="text-center mb-10">
-              <p className="text-sm font-mono text-cyan-400/80 mb-1.5">/ collaborations</p>
-              <h2 className="text-4xl md:text-5xl font-display italic text-white">Trusted by industry leaders</h2>
+            <div className="text-center mb-8 md:mb-10">
+              <p className="text-xs md:text-sm font-mono text-cyan-400/80 mb-1.5">/ collaborations</p>
+              <h2 className="text-3xl md:text-5xl font-display italic text-white">Trusted by industry leaders</h2>
             </div>
             <Collaborations />
           </motion.div>
         </section>
 
-        <section id="contact" className="py-24 px-3 md:px-4">
+        <section id="contact" className="py-20 md:py-24 px-4 md:px-4">
           <motion.div {...sectionAnim} className="max-w-7xl mx-auto">
-            <div className="text-center mb-10">
-              <p className="text-sm font-mono text-cyan-400/80 mb-1.5">/ contact</p>
-              <h2 className="text-4xl md:text-5xl font-display italic text-white">Send a message to connect</h2>
+            <div className="text-center mb-8 md:mb-10">
+              <p className="text-xs md:text-sm font-mono text-cyan-400/80 mb-1.5">/ contact</p>
+              <h2 className="text-3xl md:text-5xl font-display italic text-white">Send a message to connect</h2>
             </div>
             <div className="max-w-3xl mx-auto">
               <ContactForm />
