@@ -42,6 +42,9 @@ export default function Hero() {
         <p className="text-white/70 text-base max-w-lg mt-4 leading-relaxed md:text-left">
           As a driven student with a strong foundation in data analysis and computational modeling, I develop advanced platforms that integrate research, automation, and analytics to solve real-world problems. Currently focused on building AI-driven systems that bridge the gap between cutting-edge research and practical applications.
         </p>
+        <p className="text-white/70 text-base max-w-lg mt-4 leading-relaxed md:text-left md:hidden">
+          My work spans financial analytics, productivity tools, and cybersecurity — each project built with an emphasis on clean architecture and thoughtful user experiences. I thrive at the intersection of data and design, turning complex problems into intuitive, scalable solutions.
+        </p>
         <p className="text-white/60 text-sm sm:text-base max-w-lg mt-4 md:text-left">
           San Francisco, CA
         </p>
