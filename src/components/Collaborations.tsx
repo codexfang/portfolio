@@ -26,7 +26,7 @@ const collaborations = [
   { logo: 'AZ', company: 'Amazon', period: '2023 - 2026' },
   { logo: 'UB', company: 'Uber', period: '2023 - 2024' },
   { logo: 'FX', company: 'FedEx', period: '2023 - 2024' },
-  { logo: 'MS', company: 'Microsoft', period: '2022 - 2023' },
+  { logo: 'MS', company: 'Microsoft', period: '2023 - 2024' },
 ]
 
 function buildGroups(size: number) {
