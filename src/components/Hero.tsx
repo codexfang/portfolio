@@ -27,7 +27,7 @@ export default function Hero() {
       className="flex flex-col h-full"
     >
       <div className="flex-1 flex flex-col justify-center">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-300 text-xs font-mono mb-6 self-start whitespace-nowrap">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-300 text-xs font-mono mb-2 self-start whitespace-nowrap">
           San Francisco Bay Area
         </div>
         <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-display italic text-white mb-3 leading-tight md:text-left">
