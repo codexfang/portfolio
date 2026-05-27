@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowRight, Linkedin, Github, Mail, ChevronDown } from 'lucide-react'
+import { ArrowRight, Linkedin, Github, Mail } from 'lucide-react'
 
 const words = ['intelligent', 'adaptive', 'predictive', 'autonomous', 'generative']
 
@@ -85,15 +85,6 @@ export default function Hero() {
             </a>
           </div>
         </div>
-      </div>
-
-      <div className="flex justify-center pb-4 md:pb-0">
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-        >
-          <ChevronDown className="w-6 h-6 text-white/30" />
-        </motion.div>
       </div>
     </motion.div>
   )
