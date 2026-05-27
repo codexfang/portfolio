@@ -22,7 +22,7 @@ function App() {
 
         <section id="work" className="md:min-h-screen pt-20 md:pt-24 px-4 md:px-4">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 items-center md:min-h-[calc(100vh-8rem)]">
-            <div className="order-1 md:order-1 flex items-center justify-center md:ml-8 mt-4 md:mt-0">
+            <div className="hidden md:order-1 md:flex items-center justify-center md:ml-8 mt-4 md:mt-0">
               <img
                 src="/FangHeadshot.png"
                 alt="Jason Fang"
