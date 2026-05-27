@@ -18,17 +18,28 @@ function App() {
   return (
     <div className="relative min-h-screen font-display text-white bg-gradient-to-br from-[#08080f] via-[#0f0f1a] to-[#1a1a2a]">
       <div className="relative z-10">
-        <Navbar />
+        <motion.div
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ type: 'spring', stiffness: 80, damping: 18 }}
+        >
+          <Navbar />
+        </motion.div>
 
         <section id="work" className="min-h-screen pt-20 md:pt-24 px-4 md:px-4 pb-20 md:pb-24 flex items-center">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 items-center w-full">
-            <div className="hidden md:order-1 md:flex items-center justify-center md:ml-8 mt-4 md:mt-0">
+            <motion.div
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ type: 'spring', stiffness: 80, damping: 18, delay: 0.1 }}
+              className="hidden md:order-1 md:flex items-center justify-center md:ml-8 mt-4 md:mt-0"
+            >
               <img
                 src="/FangHeadshot.png"
                 alt="Jason Fang"
                 className="w-48 h-48 md:w-[26rem] md:h-[26rem] rounded-2xl object-cover shadow-2xl shadow-cyan-500/10"
               />
-            </div>
+            </motion.div>
             <div className="order-2 md:order-2 mt-4 md:mt-0">
               <Hero />
             </div>
