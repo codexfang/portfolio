@@ -44,7 +44,7 @@ function App() {
           <Navbar />
         </motion.div>
 
-        <section id="work" className="min-h-screen pt-20 md:pt-24 px-4 md:px-4 pb-20 md:pb-24 flex items-center">
+        <section id="about" className="min-h-screen pt-20 md:pt-24 px-4 md:px-4 pb-20 md:pb-24 flex items-center">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-8 items-center w-full">
             <motion.div
               initial={{ opacity: 0, y: -50 }}

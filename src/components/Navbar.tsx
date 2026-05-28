@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react'
 
 const links = ['About', 'Experience', 'Projects', 'Collaborations', 'Contact']
 const sectionMap: Record<string, string> = {
-  About: 'work',
+  About: 'about',
   Experience: 'experience',
   Projects: 'projects',
   Collaborations: 'collaborations',

@@ -50,12 +50,18 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-row items-center gap-3 sm:gap-4 mt-8">
-          <a
-            href="#projects"
+          <button
+            onClick={() => {
+              const el = document.getElementById('projects')
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth' })
+                window.history.pushState(null, '', '/projects')
+              }
+            }}
             className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/10 text-white font-medium text-base hover:bg-white/20 transition-all shrink-0"
           >
             Explore Work <ArrowRight className="w-5 h-5" />
-          </a>
+          </button>
           <div className="hidden sm:block w-16 md:w-24" />
           <div className="flex items-center gap-2 sm:gap-3 ml-auto sm:ml-0">
             <a
