@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -15,6 +16,23 @@ const sectionAnim = {
 }
 
 function App() {
+  useEffect(() => {
+    const redirect = sessionStorage.getItem('redirect')
+    let path = ''
+    if (redirect) {
+      sessionStorage.removeItem('redirect')
+      path = redirect.replace(/\/$/, '')
+    } else {
+      path = window.location.pathname.replace(/\/$/, '')
+    }
+    if (path && path !== '') {
+      const id = path.slice(1)
+      setTimeout(() => {
+        const el = document.getElementById(id)
+        if (el) el.scrollIntoView({ behavior: 'smooth' })
+      }, 300)
+    }
+  }, [])
   return (
     <div className="relative min-h-screen font-display text-white bg-gradient-to-br from-[#08080f] via-[#0f0f1a] to-[#1a1a2a]">
       <div className="relative z-10">

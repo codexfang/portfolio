@@ -16,7 +16,10 @@ export default function Navbar() {
   const scrollTo = (id: string) => {
     const target = sectionMap[id] || id.toLowerCase()
     const el = document.getElementById(target)
-    if (el) el.scrollIntoView({ behavior: 'smooth' })
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' })
+      window.history.pushState(null, '', '/' + target)
+    }
     setOpen(false)
   }
 
