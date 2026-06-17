@@ -9,7 +9,7 @@ const experiences = [
   },
   {
     logo: 'PC', company: 'PilotCity', role: 'Platform Development Engineer', date: 'Apr 2026 - Present', type: 'Internship', color: '#8b5cf6',
-    desc: 'I develop and maintain core platform infrastructure that powers autonomous AI-driven program management. I integrate scalable backend services and AI agents that streamline program creation, execution, and measurement.',
+    desc: 'I develop and maintain core platform infrastructure that powers autonomous AI-driven program management. I integrate scalable backend services and AI agents that streamline program creation, strategic execution, and measurement.',
   },
   {
     logo: 'LE', company: 'Lavner Education', role: 'AI/ML Instructor', date: 'June 2026 - Aug 2026', type: 'Full-time', color: '#10b981',
