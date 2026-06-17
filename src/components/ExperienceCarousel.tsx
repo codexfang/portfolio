@@ -8,8 +8,8 @@ const experiences = [
     desc: 'I will be designing and building scalable backend services and distributed systems that power Amazon\'s global e-commerce platform. I will be working alongside senior engineers to deliver high-impact solutions for millions of customers worldwide.',
   },
   {
-    logo: 'HS', company: 'Handshake', role: 'AI Systems Quality Analyst', date: 'Apr 2026 - Present', type: 'Contract', color: '#06b6d4',
-    desc: 'I ensure the reliability and accuracy of AI-driven systems by designing rigorous validation pipelines. I conduct in-depth performance analysis and implement quality assurance frameworks that maintain production-grade standards.',
+    logo: 'PC', company: 'PilotCity', role: 'Platform Development Engineer', date: 'Apr 2026 - Present', type: 'Internship', color: '#8b5cf6',
+    desc: 'I develop and maintain core platform infrastructure that powers autonomous AI-driven program management. I integrate scalable backend services and AI agents that streamline program creation, execution, and measurement.',
   },
   {
     logo: 'LE', company: 'Lavner Education', role: 'AI/ML Instructor', date: 'June 2026 - Aug 2026', type: 'Full-time', color: '#10b981',
