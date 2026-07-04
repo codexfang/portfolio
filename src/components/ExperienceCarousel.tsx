@@ -9,7 +9,7 @@ const experiences = [
   },
   {
     logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jul 2026 - Present', type: 'Internship', color: '#22c55e',
-    desc: 'I build computer vision pipelines and edge AI deployments that bring intelligent processing to hardware. I design computer vision pipelines and control systems that integrate NVIDIA Jetson and DeepStream SDK to power Physical AI applications.',
+    desc: 'I build computer vision pipelines and edge AI deployments that bring intelligent processing to hardware. I design voice interfaces and control systems that integrate NVIDIA Jetson and DeepStream SDK to power Physical AI applications.',
   },
   {
     logo: 'PC', company: 'PilotCity', role: 'Platform Development Engineer', date: 'Apr 2026 - Present', type: 'Internship', color: '#8b5cf6',
