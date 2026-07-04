@@ -4,6 +4,10 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const experiences = [
   {
+    logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jul 2026 - Sep 2026', type: 'Internship', color: '#22c55e',
+    desc: 'I build computer vision pipelines and edge AI deployments that bring intelligent processing to hardware. I design computer vision pipelines, voice interfaces, and control systems that integrate NVIDIA Jetson and DeepStream.',
+  },
+  {
     logo: 'AZ', company: 'Amazon', role: 'Software Development Engineer', date: 'Incoming Summer 2027', type: 'Internship', color: '#ff9900',
     desc: 'I will be designing and building scalable backend services and distributed systems that power Amazon\'s global e-commerce platform. I will be working alongside senior engineers to deliver high-impact solutions for millions of customers worldwide.',
   },
