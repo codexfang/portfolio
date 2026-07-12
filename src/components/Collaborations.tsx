@@ -7,26 +7,16 @@ function getGroupSize() {
 }
 
 const collaborations = [
-  { logo: 'GO', company: 'Google', period: '2025 - 2026' },
-  { logo: 'MT', company: 'Meta', period: '2025 - 2026' },
-  { logo: 'JP', company: 'JPMorgan', period: '2025 - 2026' },
-  { logo: 'AP', company: 'Apple', period: '2025 - 2026' },
-  { logo: 'GH', company: 'GitHub', period: '2025 - 2026' },
-  { logo: 'NT', company: 'Notion', period: '2025 - 2026' },
-  { logo: 'RP', company: 'Replit', period: '2025 - 2026' },
-  { logo: 'TW', company: 'Twilio', period: '2025 - 2026' },
-  { logo: 'NV', company: 'NVIDIA', period: '2025' },
-  { logo: 'TS', company: 'Tesla', period: '2025' },
-  { logo: 'VS', company: 'Visa', period: '2025' },
-  { logo: 'IN', company: 'Intel', period: '2025' },
-  { logo: 'FG', company: 'Figma', period: '2024 - 2025' },
-  { logo: 'ND', company: 'Nord', period: '2024 - 2025' },
-  { logo: 'IC', company: 'Incogni', period: '2024 - 2025' },
-  { logo: 'SY', company: 'Saily', period: '2024 - 2025' },
-  { logo: 'AZ', company: 'Amazon', period: '2023 - 2026' },
-  { logo: 'UB', company: 'Uber', period: '2023 - 2024' },
-  { logo: 'FX', company: 'FedEx', period: '2023 - 2024' },
-  { logo: 'MS', company: 'Microsoft', period: '2023 - 2024' },
+  { logo: 'AZ', company: 'Amazon' },
+  { logo: 'NV', company: 'NVIDIA' },
+  { logo: 'HF', company: 'Hugging Face' },
+  { logo: 'LN', company: 'Linear' },
+  { logo: 'RD', company: 'Render' },
+  { logo: 'SB', company: 'Supabase' },
+  { logo: 'FG', company: 'Figma' },
+  { logo: 'ND', company: 'NordVPN' },
+  { logo: 'IC', company: 'Incogni' },
+  { logo: 'SY', company: 'Saily' },
 ]
 
 function buildGroups(size: number) {
@@ -78,7 +68,6 @@ export default function Collaborations() {
               </div>
               <div>
                 <h3 className="text-base font-semibold text-white">{c.company}</h3>
-                <p className="text-sm text-white/60 mt-0.5">{c.period}</p>
               </div>
             </div>
           ))}
