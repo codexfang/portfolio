@@ -7,16 +7,18 @@ function getGroupSize() {
 }
 
 const collaborations = [
-  { logo: 'AZ', company: 'Amazon' },
-  { logo: 'NV', company: 'NVIDIA' },
-  { logo: 'HF', company: 'Hugging Face' },
-  { logo: 'LN', company: 'Linear' },
-  { logo: 'RD', company: 'Render' },
-  { logo: 'SB', company: 'Supabase' },
+  { logo: 'RP', company: 'Replit' },
   { logo: 'FG', company: 'Figma' },
+  { logo: 'NV', company: 'NVIDIA' },
+  { logo: 'JP', company: 'JPMorgan' },
+  { logo: 'HF', company: 'Hugging Face' },
+  { logo: 'AZ', company: 'Amazon' },
   { logo: 'ND', company: 'NordVPN' },
-  { logo: 'IC', company: 'Incogni' },
+  { logo: 'LN', company: 'Linear' },
+  { logo: 'SB', company: 'Supabase' },
+  { logo: 'RD', company: 'Render' },
   { logo: 'SY', company: 'Saily' },
+  { logo: 'IC', company: 'Incogni' },
 ]
 
 function buildGroups(size: number) {
