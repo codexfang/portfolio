@@ -8,7 +8,7 @@ const experiences = [
     desc: 'I will be designing and building scalable backend services and distributed systems that power Amazon\'s global e-commerce platform. I will be working alongside senior engineers to deliver high-impact solutions for millions of customers worldwide.',
   },
   {
-    logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jul 2026 - Present', type: 'Internship', color: '#22c55e',
+    logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jul 2026 - Sep 2026', type: 'Internship', color: '#22c55e',
     desc: 'I build computer vision pipelines and edge AI deployments that bring intelligent processing to hardware. I design voice interfaces and control systems that integrate NVIDIA Jetson and DeepStream SDK to power Physical AI applications.',
   },
   {
@@ -16,7 +16,7 @@ const experiences = [
     desc: 'I develop and maintain core platform infrastructure that powers autonomous AI-driven program management. I integrate scalable backend services and AI agents that streamline program creation, strategic execution, and measurement.',
   },
   {
-    logo: 'LE', company: 'Lavner Education', role: 'AI/ML Instructor', date: 'June 2026 - Aug 2026', type: 'Full-time', color: '#10b981',
+    logo: 'LE', company: 'Lavner Education', role: 'AI/ML Instructor', date: 'June 2026 - Jul 2026', type: 'Full-time', color: '#10b981',
     desc: 'I teach artificial intelligence and machine learning concepts to students of all levels. I develop curriculum that connects theoretical foundations with practical programming applications to inspire the next generation of technologists.',
   },
   {
