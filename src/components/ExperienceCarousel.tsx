@@ -9,7 +9,7 @@ const experiences = [
   },
   {
     logo: 'ID', company: 'IDX Exchange LLC', role: 'Software Development Engineer', date: 'Sep 2026 - Dec 2026', type: 'Internship', color: '#a855f7',
-    desc: 'I engineer property search infrastructure that makes real estate discovery fast and precise for agents and buyers. I develop robust data pipelines and listing features that power the IDX property engine end to end.',
+    desc: 'I engineer property search infrastructure that makes real estate discovery fast and precise for agents and buyers. I develop robust data pipelines and listing features that power the IDX property search engine from initial query through closing, end to end.',
   },
   {
     logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jul 2026 - Aug 2026', type: 'Internship', color: '#06b6d4',
@@ -20,12 +20,12 @@ const experiences = [
     desc: 'I teach AI/ML concepts and create robotics education programs that make intelligent systems accessible to young engineers every summer. I mentor students through hands-on robotics and AI projects that inspire real, lasting technical curiosity.',
   },
   {
-    logo: 'PC', company: 'PilotCity', role: 'Platform Development Engineer', date: 'Apr 2026', type: 'Internship', color: '#f43f5e',
+    logo: 'PC', company: 'PilotCity', role: 'Platform Development Engineer', date: 'Apr 2026', type: 'Contract', color: '#f43f5e',
     desc: 'I architect internal operations tooling and digital infrastructure that keep startup teams working efficiently every single day. I craft robust platforms and workflows that streamline day-to-day operations at PilotCity from idea to full execution.',
   },
   {
     logo: 'SL', company: 'San Leandro 2050', role: 'Data Systems Engineer', date: 'Oct 2024 - May 2025', type: 'Internship', color: '#3b82f6',
-    desc: 'I designed reliable data pipelines and cloud-based infrastructure to support urban planning analytics. I turned raw municipal data into structured and actionable insights that informed community development and long-term strategic initiatives across the city.',
+    desc: 'I design reliable data pipelines and cloud-based infrastructure to support urban planning analytics. I turn raw municipal data into structured and actionable insights that inform community development and long-term strategic initiatives across the city.',
   },
 ]
 
