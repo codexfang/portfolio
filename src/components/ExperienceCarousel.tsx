@@ -9,7 +9,7 @@ const experiences = [
   },
   {
     logo: 'ID', company: 'IDX Exchange LLC', role: 'Software Development Engineer', date: 'Sep 2026 - Dec 2026', type: 'Internship', color: '#a855f7',
-    desc: 'I engineer property search infrastructure that makes real estate discovery fast and precise for agents and buyers. I develop robust data pipelines and listing features that power the IDX property search engine from initial query through closing, end to end.',
+    desc: 'I engineer property search infrastructure that makes real estate discovery fast and precise for agents and buyers. I develop robust data pipelines and listing features that power the property search engine from initial query through closing.',
   },
   {
     logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jul 2026 - Aug 2026', type: 'Internship', color: '#06b6d4',
