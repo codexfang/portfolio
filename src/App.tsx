@@ -55,7 +55,7 @@ function App() {
               <img
                 src="/FangHeadshot.png"
                 alt="Jason Fang"
-                className="w-48 h-48 md:w-[26rem] md:h-[26rem] rounded-2xl object-cover shadow-2xl shadow-cyan-500/10"
+                className="w-48 h-48 md:w-[27.5rem] md:h-[31rem] rounded-2xl object-cover shadow-2xl shadow-cyan-500/10"
               />
             </motion.div>
             <div className="order-2 md:order-2 mt-4 md:mt-0">
