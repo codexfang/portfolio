@@ -8,10 +8,6 @@ const experiences = [
     desc: 'I will be designing and building scalable backend services and distributed systems that power Amazon\'s global e-commerce platform. I will be working alongside senior engineers to deliver high-impact solutions for millions of customers worldwide.',
   },
   {
-    logo: 'ID', company: 'IDX Exchange LLC', role: 'Software Development Engineer', date: 'Sep 2026 - Dec 2026', type: 'Internship', color: '#a855f7',
-    desc: 'I engineer property search infrastructure that makes real estate discovery fast and precise for agents and buyers. I develop robust data pipelines and listing features that power the property search engine from initial query through closing.',
-  },
-  {
     logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jul 2026 - Aug 2026', type: 'Internship', color: '#06b6d4',
     desc: 'I build computer vision pipelines and edge AI deployments that bring intelligent processing to hardware. I design voice interfaces and control systems that integrate NVIDIA Jetson and DeepStream SDK to power Physical AI applications.',
   },
