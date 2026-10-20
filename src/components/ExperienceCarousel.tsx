@@ -8,8 +8,8 @@ const experiences = [
     desc: 'I will be designing and building scalable backend services and distributed systems that power Amazon\'s global e-commerce platform. I will be working alongside senior engineers to deliver high-impact solutions for millions of customers worldwide.',
   },
   {
-    logo: 'IP', company: 'IPMD, Inc.', role: 'Software Engineer', date: 'Aug 2026 - Oct 2026', type: 'Internship', color: '#8b5cf6',
-    desc: 'I build immersive extended reality experiences that bring virtual galleries and digital exhibitions to life. I engineer real-time rendering pipelines and interactive 3D interfaces that power the XR Gallery and Echosphere Mosaic solutions.',
+    logo: 'IP', company: 'IPMD, Inc.', role: 'Software Engineer / Technical PM', date: 'Aug 2026 - Present', type: 'Internship', color: '#8b5cf6',
+    desc: 'I build immersive extended reality experiences that bring virtual galleries and digital exhibitions to life. I engineer real-time rendering pipelines and interactive 3D interfaces to power the immersive XR Gallery platform and Echosphere Mosaic solution suite. I lead cross-functional feature planning and coordinate with design and hardware teams to ship AR/VR experiences on schedule.',
   },
   {
     logo: 'ID', company: 'IDX Exchange', role: 'Software Development Engineer', date: 'Sep 2026 - Dec 2026', type: 'Internship', color: '#ec4899',
