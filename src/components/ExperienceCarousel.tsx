@@ -9,10 +9,10 @@ const experiences = [
   },
   {
     logo: 'IP', company: 'IPMD, Inc.', role: 'Software Engineer / Technical PM', date: 'Aug 2026 - Present', type: 'Internship', color: '#8b5cf6',
-    desc: 'I build immersive extended reality experiences that bring virtual galleries and digital exhibitions to life. I engineer real-time rendering pipelines and interactive 3D interfaces to power the immersive XR Gallery platform and Echosphere Mosaic solution suite. I lead cross-functional feature planning and coordinate with design and hardware teams to ship AR/VR experiences on schedule.',
+    desc: 'I build immersive extended reality experiences that bring virtual galleries and digital exhibitions to life. I lead cross-functional feature planning and coordinate with design and hardware teams to ship AR/VR experiences toward the XR Gallery.',
   },
   {
-    logo: 'ID', company: 'IDX Exchange', role: 'Software Development Engineer', date: 'Sep 2026 - Dec 2026', type: 'Internship', color: '#ec4899',
+    logo: 'DX', company: 'IDX Exchange', role: 'Software Development Engineer', date: 'Sep 2026 - Dec 2026', type: 'Internship', color: '#22c55e',
     desc: 'I engineer property search infrastructure that makes real estate discovery fast and precise for agents and buyers. I develop robust data pipelines and listing features that power the property search engine from initial query through closing.',
   },
   {
