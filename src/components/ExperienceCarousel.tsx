@@ -8,12 +8,16 @@ const experiences = [
     desc: 'I will be designing and building scalable backend services and distributed systems that power Amazon\'s global e-commerce platform. I will be working alongside senior engineers to deliver high-impact solutions for millions of customers worldwide.',
   },
   {
-    logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jul 2026 - Aug 2026', type: 'Internship', color: '#06b6d4',
-    desc: 'I build computer vision pipelines and edge AI deployments that bring intelligent processing to hardware. I design voice interfaces and control systems that integrate NVIDIA Jetson and DeepStream SDK to power Physical AI applications.',
+    logo: 'IP', company: 'IPMD, Inc.', role: 'Software Engineer', date: 'Aug 2026 - Oct 2026', type: 'Internship', color: '#8b5cf6',
+    desc: 'I build immersive extended reality experiences that bring virtual galleries and digital exhibitions to life. I engineer real-time rendering pipelines and interactive 3D interfaces that power the XR Gallery and Echosphere Mosaic solutions.',
   },
   {
-    logo: 'LE', company: 'Lavner Education', role: 'AI/ML Instructor', date: 'Jun 2026 - Jul 2026', type: 'Full-time', color: '#10b981',
-    desc: 'I teach AI/ML concepts and create robotics education programs that make intelligent systems accessible to young engineers every summer. I mentor students through hands-on robotics and AI projects that inspire real, lasting technical curiosity.',
+    logo: 'ID', company: 'IDX Exchange', role: 'Software Development Engineer', date: 'Sep 2026 - Dec 2026', type: 'Internship', color: '#ec4899',
+    desc: 'I engineer property search infrastructure that makes real estate discovery fast and precise for agents and buyers. I develop robust data pipelines and listing features that power the property search engine from initial query through closing.',
+  },
+  {
+    logo: 'SS', company: 'Seeed Studio', role: 'Embedded Systems Engineer', date: 'Jun 2026 - Aug 2026', type: 'Internship', color: '#06b6d4',
+    desc: 'I build computer vision pipelines and edge AI deployments that bring intelligent processing to hardware. I design voice interfaces and control systems that integrate NVIDIA Jetson and DeepStream SDK to power Physical AI applications.',
   },
   {
     logo: 'PC', company: 'PilotCity', role: 'Platform Development Engineer', date: 'Apr 2026', type: 'Contract', color: '#f43f5e',
