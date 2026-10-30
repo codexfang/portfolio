@@ -8,7 +8,7 @@ const experiences = [
     desc: 'I will be designing and building scalable backend services and distributed systems that power Amazon\'s global e-commerce platform. I will be working alongside senior engineers to deliver high-impact solutions for millions of customers worldwide.',
   },
   {
-    logo: 'MD', company: 'IPMD, Inc.', role: 'Software Engineer / Technical Product Manager', date: 'Aug 2026 - Present', type: 'Internship', color: '#8b5cf6',
+    logo: 'MD', company: 'IPMD, Inc.', role: 'Software Engineer / Technical Product Manager', date: 'Aug 2026 - Present', type: 'Part-Time', color: '#8b5cf6',
     desc: 'I build immersive extended reality experiences that bring virtual galleries and digital exhibitions to life. I lead cross-functional feature planning and coordinate with design and hardware teams to ship AR/VR experiences toward the XR Gallery.',
   },
   {
